@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestAPI-cw5")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21e04a5f12ee8dda3d112e6d626cf24be76b7a2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ff5775636008da1d9ec5b58cea2d86bb405a12f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestAPI-cw5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestAPI-cw5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

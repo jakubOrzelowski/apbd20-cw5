@@ -1,3 +1,4 @@
+using RestAPI_cw5.Database;
 using RestAPI_cw5.EndPoints;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddControllers();
+builder.Services.AddSingleton<MockDB>();
 
 var app = builder.Build();
 
@@ -22,7 +25,7 @@ app.UseHttpsRedirection();
 app.MapAnimalEndPoints();
 
 // Controllers
-
+app.MapControllers();
 
 app.Run();
 
