@@ -24,8 +24,7 @@ app.UseHttpsRedirection();
 //miniaml API
 app.MapAnimalEndPoints();
 
-// Controllers
-app.MapControllers();
+
 
 app.Run();
 
